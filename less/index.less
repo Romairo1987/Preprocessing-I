@@ -53,7 +53,157 @@ table {
     box-sizing: border-box;
 }
 
+@main-color:rgb(214, 210, 210);
+
 html, body {
-    height: 100%;
+	height: 100%;
+	font-size:62.5%;
 }
+	
+	.container{
+	width:95%;
+	margin:0 auto;
+	margin-top: 40px;
+	margin-bottom:30px;
+
+	nav{
+		display:flex;
+		justify-content: space-around;
+		flex-direction: row;
+		font-size: 2.4rem;
+		padding-left: 70%;
+
+		a{
+			text-decoration: none;
+			color: black;	
+		}
+		}
+	}
+
+
+.first-content{
+	margin-top: 30px;
+	width: 100%;
+	background-color: @main-color;
+	border-radius: 10px;
+
+	img{
+		margin-top: 40px;
+		margin-left:40px;
+		width: 35%;
+		height:35%;
+	}	
+	h1{
+		font-size:8rem;
+		padding-left:4rem;
+	
+	}
+	p{
+		font-size: 3.4rem;
+  		margin:4rem 0rem 4rem 4rem;
+
+	}
+
+	#last{
+		font-size: 2.8rem;
+	}
+
+	button{
+		font-size: 3.5rem;
+		height:70px;
+		width: 240px;
+		font-weight: bold;
+		border-radius:0.8rem;
+		border-style: solid;
+		background-color: rgb(54, 53, 53);
+		margin: 0rem 0rem 8rem 4rem;
+		color: white;
+	}
+}
+
+.second-content{
+	margin-top: 30px;
+  	display: flex;
+ 	flex-direction: row;
+	justify-content: flex-start;
+
+	 .contentA{
+		width: 45%;
+		margin-right:160px;
+		
+		h1{
+			font-size: 5rem;
+  			margin: 20px 0px 20px 0px;
+		}
+
+		p{
+			font-size: 2.6rem;
+		}
+	  }
+	.contentB{
+		width: 45%;
+		
+		
+		h1{
+			font-size: 5rem;
+ 		    margin: 20px 0px 20px 0px;
+		}
+		p{
+			font-size: 2.6rem;
+			border:0.1rem solid gray;
+  			border-bottom-style: none;
+  			padding: 2.1rem 0rem 2.1rem 2.1rem ;
+
+		}
+		p:last-child{
+		border-bottom:0.1rem solid gray;
+	} 
+	 
+}
+}
+
+.third-content{
+	width: 100%;
+
+	h1{
+		font-size: 5rem;
+  		margin-top: 45px;
+ 		margin-bottom: 15px;
+
+	} 
+
+	table{
+		width: 100%;
+	}
+	tr{
+		width:100%;
+		border:1px solid #dddddd;
+	}
+	td,th{
+		font-size: 2.6rem;
+		text-align: left;
+		padding: 10px;
+	}
+
+	tr:nth-child(even) {
+	background-color: #dddddd;
+	}
+}
+
+
+footer p{
+	width: 100%;
+	font-size: 2.5rem;
+	font-weight: bolder;
+	padding-top:40px;
+	padding-bottom: 60px;
+	display: flex;
+	justify-content: center;
+	background-color: gray;
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 30px
+}
+
+
 

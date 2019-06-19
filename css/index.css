@@ -1,1 +1,258 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.container nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: 2.4rem;
+  padding-left: 70%;
+}
+.container nav a {
+  text-decoration: none;
+  color: black;
+}
+.first-content {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #d6d2d2;
+  border-radius: 10px;
+}
+.first-content img {
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 35%;
+  height: 35%;
+}
+.first-content h1 {
+  font-size: 8rem;
+  padding-left: 4rem;
+}
+.first-content p {
+  font-size: 3.4rem;
+  margin: 4rem 0rem 4rem 4rem;
+}
+.first-content #last {
+  font-size: 2.8rem;
+}
+.first-content button {
+  font-size: 3.5rem;
+  height: 70px;
+  width: 240px;
+  font-weight: bold;
+  border-radius: 0.8rem;
+  border-style: solid;
+  background-color: #363535;
+  margin: 0rem 0rem 8rem 4rem;
+  color: white;
+}
+.second-content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.second-content .contentA {
+  width: 45%;
+  margin-right: 160px;
+}
+.second-content .contentA h1 {
+  font-size: 5rem;
+  margin: 20px 0px 20px 0px;
+}
+.second-content .contentA p {
+  font-size: 2.6rem;
+}
+.second-content .contentB {
+  width: 45%;
+}
+.second-content .contentB h1 {
+  font-size: 5rem;
+  margin: 20px 0px 20px 0px;
+}
+.second-content .contentB p {
+  font-size: 2.6rem;
+  border: 0.1rem solid gray;
+  border-bottom-style: none;
+  padding: 2.1rem 0rem 2.1rem 2.1rem;
+}
+.second-content .contentB p:last-child {
+  border-bottom: 0.1rem solid gray;
+}
+.third-content {
+  width: 100%;
+}
+.third-content h1 {
+  font-size: 5rem;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+.third-content table {
+  width: 100%;
+}
+.third-content tr {
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+.third-content td,
+.third-content th {
+  font-size: 2.6rem;
+  text-align: left;
+  padding: 10px;
+}
+.third-content tr:nth-child(even) {
+  background-color: #dddddd;
+}
+footer p {
+  width: 100%;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
